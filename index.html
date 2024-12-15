@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Bienvenido a Mi Portafolio</h1>
@@ -16,6 +19,41 @@
             <h2>Mis Proyectos</h2>
             <p>Aquí estarán los proyectos destacados que he desarrollado.</p>
         </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+        
+            <div class="proyecto">
+                <h3>Proyecto 1: Página Web de Portafolio</h3>
+                <p>Descripción breve de lo que hace el proyecto.</p>
+                <a href="https://j3sss3.github.io/mi-portafolio/" target="_blank">Ver Proyecto en GitHub</a>
+            </div>
+        
+            <div class="proyecto">
+                <h3>Proyecto 2: Aplicación de Finanzas Personales</h3>
+                <p>Descripción breve de lo que hace el proyecto.</p>
+                <a href="https://github.com/tu-usuario/proyecto2" target="_blank">Ver Proyecto en GitHub</a>
+            </div>
+        
+            <!-- Agrega más proyectos aquí -->
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="mailto:gchernandez39@gmail.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
     </main>
     <footer>
         <p>© 2024 Jese Hernandez - Todos los derechos reservados.</p>
